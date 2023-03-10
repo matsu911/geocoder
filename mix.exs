@@ -48,7 +48,7 @@ defmodule Geocoder.Mixfile do
     [
       {:httpoison, "~> 1.5"},
       {:jason, "~> 1.2"},
-      {:towel, "~> 0.2"},
+      {:towel, github: "matsu911/towel"},
       {:poolboy, "~> 1.5"},
       {:geohash, "~> 1.2"},
       {:ex_doc, "~> 0.29.0", only: :dev, runtime: false},
